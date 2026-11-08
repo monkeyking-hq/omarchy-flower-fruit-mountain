@@ -55,7 +55,7 @@ omarchy theme bg-switcher
 
 ## Universal Code
 
-This project follows the [Universal Code v1.0.0](https://monkeyking-hq.github.io/universal-code/UC-v1.0.0.md).
+This project follows the [Universal Code v1.0.0](https://github.com/monkeyking-hq/universal-code).
 
 ## License
 

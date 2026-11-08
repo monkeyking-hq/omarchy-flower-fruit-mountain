@@ -53,6 +53,10 @@ Or open the background switcher:
 omarchy theme bg-switcher
 ```
 
+## Universal Code
+
+This project follows the [Universal Code v1.0.0](https://monkeyking-hq.github.io/universal-code/UC-v1.0.0.md).
+
 ## License
 
 Released under the [MIT License](LICENSE).

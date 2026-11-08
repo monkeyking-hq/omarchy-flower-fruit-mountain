@@ -1,0 +1,39 @@
+mode = "dark"
+
+# MonkeyKing.dev — Flower-Fruit Mountain at dawn
+# Brand tokens from https://www.monkeyking.dev
+# --bg #050308  --bg-deep #020203  --ink #e7e5dd  --ink-dim #8a887e
+# --ink-faint #4a4842  --amber #f5a524  --amber-deep #b8730e  --peach #f4a48a
+
+accent = "#f5a524"
+selection = "#3a2545"
+muted = "#4a4842"
+
+background = "#0d0a1a"
+dark_background = "#050308"
+darker_background = "#020203"
+lighter_background = "#1a1530"
+
+foreground = "#e7e5dd"
+dark_foreground = "#8a887e"
+light_foreground = "#e8e3d8"
+bright_foreground = "#f8d28a"
+
+red = "#c45c4a"
+yellow = "#f8d28a"
+orange = "#f5a524"
+green = "#8fb87a"
+cyan = "#7eb8b4"
+blue = "#8b9cc8"
+magenta = "#f4a48a"
+brown = "#7a4530"
+
+bright_red = "#e07a5f"
+bright_yellow = "#ffe2a8"
+bright_green = "#b4d49a"
+bright_cyan = "#a8d4d0"
+bright_blue = "#b4c0e0"
+bright_magenta = "#ffd6c2"
+
+hyprland_active_border = "rgba(f5a524ee) rgba(f8d28aee) 45deg"
+hyprland_inactive_border = "rgba(3a2545aa)"

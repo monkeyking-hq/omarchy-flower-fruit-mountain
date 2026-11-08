@@ -1,0 +1,12 @@
+<svg width="3840" height="2160" viewBox="0 0 3840 2160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="3840" height="2160" fill="#0d0a1a"/>
+  <text x="1920" y="1088" text-anchor="middle"
+        font-family="Adwaita Sans, Noto Sans, sans-serif"
+        font-weight="700" font-size="160" fill="#f5a524">
+    <tspan letter-spacing="8">MONKEYKING</tspan><tspan>.</tspan><tspan letter-spacing="8">DEV</tspan>
+  </text>
+  <text x="1920" y="1188" text-anchor="middle"
+        font-family="Adwaita Sans, Noto Sans, sans-serif"
+        font-weight="500" font-size="28" fill="#8a887e"
+        letter-spacing="16">FLOWER-FRUIT MOUNTAIN</text>
+</svg>

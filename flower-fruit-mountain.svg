@@ -1,0 +1,88 @@
+<svg viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0a1a"/>
+      <stop offset="35%" stop-color="#1a1530"/>
+      <stop offset="70%" stop-color="#3a2545"/>
+      <stop offset="92%" stop-color="#a85a4f"/>
+      <stop offset="100%" stop-color="#d99060"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#f8d28a" stop-opacity="0.95"/>
+      <stop offset="35%" stop-color="#f5a524" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#c47138" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#3a2545" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sunHalo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#f5a524" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#f5a524" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mtnBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3a5e"/>
+      <stop offset="100%" stop-color="#2a1f3a"/>
+    </linearGradient>
+    <linearGradient id="mtnMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a1f3a"/>
+      <stop offset="100%" stop-color="#15101f"/>
+    </linearGradient>
+    <linearGradient id="mtnFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#15101f"/>
+      <stop offset="100%" stop-color="#0a0712"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8e3d8" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#e8e3d8" stop-opacity="0.35"/>
+      <stop offset="80%" stop-color="#e8e3d8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#e8e3d8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="peachFoliage" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#d99060" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#7a4530" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#2a1f2a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="summitGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#f8d28a" stop-opacity="0.9"/>
+      <stop offset="35%" stop-color="#f5a524" stop-opacity="0.45"/>
+      <stop offset="70%" stop-color="#c47138" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#3a2545" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.65"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <g fill="#e8e3d8" opacity="0.4">
+    <circle cx="120" cy="80" r="0.8"/>
+    <circle cx="280" cy="140" r="0.6"/>
+    <circle cx="440" cy="60" r="0.9"/>
+    <circle cx="600" cy="120" r="0.7"/>
+    <circle cx="780" cy="40" r="0.8"/>
+    <circle cx="980" cy="90" r="0.6"/>
+    <circle cx="1160" cy="160" r="0.9"/>
+    <circle cx="1340" cy="70" r="0.7"/>
+    <circle cx="1480" cy="130" r="0.6"/>
+    <circle cx="180" cy="220" r="0.5"/>
+    <circle cx="520" cy="200" r="0.5"/>
+    <circle cx="900" cy="180" r="0.5"/>
+    <circle cx="1280" cy="240" r="0.5"/>
+  </g>
+  <circle cx="800" cy="540" r="600" fill="url(#sunHalo)"/>
+  <circle cx="800" cy="540" r="180" fill="url(#sun)"/>
+  <path d="M 0 620 L 80 580 L 160 600 L 220 555 L 310 590 L 380 540 L 460 575 L 540 530 L 640 565 L 720 510 L 820 555 L 920 500 L 1020 540 L 1120 480 L 1220 530 L 1320 485 L 1420 525 L 1500 490 L 1600 520 L 1600 700 L 0 700 Z" fill="url(#mtnBack)" opacity="0.85"/>
+  <path d="M 0 680 L 60 650 L 140 670 L 220 620 L 320 655 L 410 600 L 510 645 L 600 580 L 720 630 L 820 565 L 920 615 L 1040 555 L 1160 605 L 1280 545 L 1380 595 L 1500 555 L 1600 590 L 1600 800 L 0 800 Z" fill="url(#mtnMid)"/>
+  <path d="M 480 900 L 480 720 L 520 680 L 560 700 L 600 640 L 640 660 L 680 590 L 720 600 L 760 540 L 800 480 L 820 510 L 840 470 L 880 520 L 920 490 L 960 540 L 1000 580 L 1040 620 L 1080 670 L 1120 700 L 1120 900 Z" fill="url(#mtnFront)"/>
+  <ellipse cx="800" cy="450" rx="220" ry="160" fill="url(#summitGlow)"/>
+  <ellipse cx="700" cy="710" rx="22" ry="10" fill="url(#peachFoliage)"/>
+  <ellipse cx="900" cy="690" rx="22" ry="10" fill="url(#peachFoliage)"/>
+  <ellipse cx="560" cy="760" rx="18" ry="8" fill="url(#peachFoliage)" opacity="0.7"/>
+  <ellipse cx="1080" cy="740" rx="18" ry="8" fill="url(#peachFoliage)" opacity="0.7"/>
+  <ellipse cx="200" cy="730" rx="380" ry="14" fill="url(#cloud)"/>
+  <ellipse cx="700" cy="745" rx="500" ry="16" fill="url(#cloud)"/>
+  <ellipse cx="1300" cy="725" rx="420" ry="14" fill="url(#cloud)"/>
+  <ellipse cx="350" cy="775" rx="300" ry="10" fill="url(#cloud)" opacity="0.6"/>
+  <ellipse cx="1100" cy="780" rx="340" ry="10" fill="url(#cloud)" opacity="0.6"/>
+  <ellipse cx="800" cy="800" rx="380" ry="12" fill="url(#cloud)" opacity="0.5"/>
+  <path d="M 0 900 L 0 820 L 80 800 L 160 815 L 220 790 L 300 810 L 380 795 L 440 820 L 520 805 L 600 830 L 1600 830 L 1600 900 Z" fill="#050308" opacity="0.95"/>
+  <rect width="1600" height="900" fill="url(#vignette)"/>
+</svg>

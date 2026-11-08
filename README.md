@@ -2,7 +2,7 @@
 
 A dark, atmospheric theme inspired by the legendary Flower-Fruit Mountain (*Huāguǒ Shān*) and the visual identity of [MonkeyKing.dev](https://monkeyking.dev). Features deep obsidian backgrounds, vibrant amber and peach blossom accents, high-contrast typography, and custom desktop artwork.
 
-![Flower-Fruit Mountain Preview](preview.png)
+![Flower-Fruit Mountain Live Preview](preview.gif)
 
 ## Palette Highlights
 

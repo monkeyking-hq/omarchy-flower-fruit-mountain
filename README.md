@@ -53,10 +53,6 @@ Or open the background switcher:
 omarchy theme bg-switcher
 ```
 
-## Upstream & Development
-
-This theme is maintained as part of the [`mkd-swag`](https://monkeyking.dev) digital asset collateral.
-
 ## License
 
-MIT © 2026 Nathan A Chadwick / MonkeyKing.dev
+Released under the [MIT License](LICENSE).

@@ -16,7 +16,7 @@ A dark, atmospheric theme inspired by the legendary Flower-Fruit Mountain (*Huā
 Using the official [Omarchy](https://omarchy.org) theme command:
 
 ```bash
-omarchy theme install https://github.com/monkeyking-hq/omarchy-flower-fruit-mountain.git
+omarchy theme install https://github.com/monkeyking-hq/omarchy-flower-fruit-mountain-theme.git
 ```
 
 Omarchy will clone and activate the theme automatically.

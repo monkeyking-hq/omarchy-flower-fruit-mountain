@@ -15,17 +15,17 @@ Animated blossom petals drift across the desktop, blown by random wind, alongsid
 
 ## Installation
 
-Install the palette and static artwork using the official [Omarchy](https://omarchy.org) theme command:
+Install the theme and live animation using the official [Omarchy](https://omarchy.org) commands below. Review and confirm the plugin trust prompt when asked:
 
 ```bash
-omarchy theme install https://github.com/monkeyking-hq/omarchy-flower-fruit-mountain-theme.git
+omarchy theme install https://github.com/monkeyking-hq/omarchy-flower-fruit-mountain-theme.git && omarchy plugin add https://github.com/monkeyking-hq/omarchy-flower-fruit-mountain-theme.git --enable
 ```
 
-Omarchy will clone and activate the theme automatically. Theme installation alone does not enable the live animation.
+Omarchy will clone and activate the theme, then install and enable its live animation plugin.
 
 ### Live animation
 
-Install and enable the companion plugin from the same repository:
+If the theme is already installed without its live animation plugin, install and enable the plugin separately:
 
 ```bash
 omarchy plugin add https://github.com/monkeyking-hq/omarchy-flower-fruit-mountain-theme.git --enable

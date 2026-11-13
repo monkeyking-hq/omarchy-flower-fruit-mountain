@@ -27,6 +27,8 @@ Omarchy will clone and activate the theme automatically. Theme installation alon
 
 Install and enable the companion plugin from the same repository:
 
+If you already have `nate.flower-fruit-mountain`, follow [the migration instructions](#migrating-from-the-old-plugin-id) first to avoid running two overlays.
+
 ```bash
 omarchy plugin add https://github.com/monkeyking-hq/omarchy-flower-fruit-mountain-theme.git --enable
 ```
@@ -38,28 +40,38 @@ The overlay follows the resolved wallpaper path at `~/.local/state/omarchy/curre
 Control the animation independently of the palette:
 
 ```bash
-omarchy plugin disable nate.flower-fruit-mountain
-omarchy plugin enable nate.flower-fruit-mountain
+omarchy plugin disable blowing-flower-petal-plugin
+omarchy plugin enable blowing-flower-petal-plugin
 ```
 
 Update the installed plugin from this repository:
 
 ```bash
-omarchy plugin update nate.flower-fruit-mountain
+omarchy plugin update blowing-flower-petal-plugin
 ```
 
 Updates require a Git-managed installation that can fast-forward; local edits or a diverged checkout can prevent an update. The command shows the changes and asks for confirmation before applying them.
 
-### Migrating an existing manual plugin
+### Migrating from the old plugin ID
 
-If `nate.flower-fruit-mountain` was previously installed by copying files, `omarchy plugin add` refuses the existing ID and `omarchy plugin update` cannot update a directory without `.git`. Use the native removal command first, then install from Git:
+Version 2.0.0 renames `nate.flower-fruit-mountain` to `blowing-flower-petal-plugin`. Existing installations must migrate, whether installed by copying files or using Git. Do not use `omarchy plugin update` to migrate the old ID: it updates files in place without renaming the installation directory.
+
+Back up the complete old plugin outside Omarchy's plugin discovery directory before removing it. `omarchy plugin remove` deletes Git-managed installations; manually copied installations are moved to a hidden backup automatically. The explicit backup below preserves either kind, including local edits:
+
+```bash
+backup_dir=$(mktemp -d "$HOME/flower-fruit-mountain-backup.XXXXXXXX")
+cp -a "$HOME/.config/omarchy/plugins/nate.flower-fruit-mountain" "$backup_dir/"
+printf 'Original plugin backed up to: %s\n' "$backup_dir"
+```
+
+After the copy succeeds, remove the old plugin to disable and unload it, then install the new ID from Git:
 
 ```bash
 omarchy plugin remove nate.flower-fruit-mountain
 omarchy plugin add https://github.com/monkeyking-hq/omarchy-flower-fruit-mountain-theme.git --enable
 ```
 
-For a manually installed plugin without `.git`, removal disables the plugin and moves its directory to a hidden backup named `~/.config/omarchy/plugins/.nate.flower-fruit-mountain.bak.TIMESTAMP`. Your original files remain in that backup. The new installation keeps the same plugin ID, so it replaces the manual overlay rather than adding a second one.
+Keep the backup until the new plugin works. If installation fails after removal, retry the `omarchy plugin add` command once the cause is resolved. To roll back, remove the new plugin if installed, copy the backed-up `nate.flower-fruit-mountain` directory into `~/.config/omarchy/plugins/`, run `omarchy-shell shell rescanPlugins`, and enable `nate.flower-fruit-mountain`. Restore your files from the backup, not by updating the old ID from this repository. Keep only one of the two IDs installed and enabled to avoid duplicate overlays.
 
 ## Applying the Theme Manually
 

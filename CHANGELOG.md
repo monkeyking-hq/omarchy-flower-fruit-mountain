@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2026-11-13
+
+### Breaking
+- Rename the plugin ID from `nate.flower-fruit-mountain` to `blowing-flower-petal-plugin`. Existing manual and Git-managed installations must back up the old plugin outside the plugin directory, remove the old ID, and install the new ID using `omarchy plugin add`; updating the old ID in place does not migrate it. See the README for migration and rollback instructions.
+
+### Changed
+- Attribute the public plugin to MonkeyKing.dev and use the new namespace in enable, disable, and update commands. The overlay runtime and petal artwork remain unchanged.
+
 ## [1.1.0] - 2026-11-13
 
 ### Added

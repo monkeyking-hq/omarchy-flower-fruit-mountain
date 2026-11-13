@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.4] - 2026-11-13
+
+### Changed
+- Match the plugin to the theme with ID `flower-fruit-mountain` and display name Flower-Fruit Mountain, removing the `mkd-` prefix and separate plugin name.
+- Correct VERSION and the manifest to the operator-selected release version `1.0.4`; retain historical changelog entries and existing tags.
+
 ## [3.0.0] - 2026-11-13
 
 ### Breaking

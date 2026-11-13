@@ -38,14 +38,14 @@ The overlay follows the resolved wallpaper path at `~/.local/state/omarchy/curre
 Control the animation independently of the palette:
 
 ```bash
-omarchy plugin disable mkd-blowing-flower-petal-plugin
-omarchy plugin enable mkd-blowing-flower-petal-plugin
+omarchy plugin disable flower-fruit-mountain
+omarchy plugin enable flower-fruit-mountain
 ```
 
 Update the installed plugin from this repository:
 
 ```bash
-omarchy plugin update mkd-blowing-flower-petal-plugin
+omarchy plugin update flower-fruit-mountain
 ```
 
 Updates require a Git-managed installation that can fast-forward; local edits or a diverged checkout can prevent an update. The command shows the changes and asks for confirmation before applying them.

@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.0] - 2026-11-13
+
+### Breaking
+- Prefix the plugin ID with `mkd-`, changing `blowing-flower-petal-plugin` to `mkd-blowing-flower-petal-plugin`. Both this predecessor and `nate.flower-fruit-mountain` must migrate through backup, native removal, and native installation; see the README for migration and rollback instructions.
+
+### Changed
+- Update current enable, disable, and update commands to the prefixed ID. The display name, animation runtime, and artwork remain unchanged.
+
 ## [2.0.0] - 2026-11-13
 
 ### Breaking

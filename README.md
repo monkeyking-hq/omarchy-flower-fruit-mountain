@@ -1,8 +1,10 @@
 # Flower-Fruit Mountain (Omarchy Theme)
 
-A dark, atmospheric theme inspired by the legendary Flower-Fruit Mountain (*Huāguǒ Shān*) and the visual identity of [MonkeyKing.dev](https://monkeyking.dev). Features deep obsidian backgrounds, vibrant amber and peach blossom accents, high-contrast typography, and custom desktop artwork.
+A dark, atmospheric theme inspired by the legendary Flower-Fruit Mountain (*Huāguǒ Shān*) and the visual identity of [MonkeyKing.dev](https://monkeyking.dev). Features animated blossom petals blown by random wind, deep obsidian backgrounds, vibrant amber and peach blossom accents, high-contrast typography, and custom desktop artwork.
 
 ![Flower-Fruit Mountain Live Preview](preview.gif)
+
+Animated blossom petals drift across the desktop, blown by random wind. The live preview above showcases the animation and wallpaper cycling.
 
 ## Palette Highlights
 
